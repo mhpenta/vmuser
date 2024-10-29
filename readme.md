@@ -21,6 +21,12 @@ go run . --tui
 # Add a report
 go run . --add-report path/to/report.md
 
+# Get a specific report by ID
+go run . --get-report 123
+
+# List all reports
+go run . --list-reports
+
 # Specify config file
 go run . --config custom_config.toml
 ```
